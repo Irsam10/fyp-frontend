@@ -1,0 +1,26 @@
+.user-profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid blue;
+}
+.user-icon{
+    height: 45px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.user-name{
+    margin: 20px;
+    font-size: 20px;
+}
+.user-rank{
+    font-size: 20px;
+}
+.sideBarRow-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px
+    /* background-color: #e9e4e4; */
+}

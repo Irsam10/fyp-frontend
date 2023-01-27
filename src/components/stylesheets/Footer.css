@@ -1,0 +1,141 @@
+.logo-facebook{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.logo-instagram{
+    height: 30px;
+    width: 30px;
+}
+.footer-container{
+    flex-wrap: wrap;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: #202471;
+    color: white;
+}
+.footer-brandname{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 200px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-terms-condition{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 50px;
+}
+.footer-privacy-policy{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 200px;
+}
+.footer-contactus{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.footer-logos{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+    .footer-brandname{
+        margin-right: 150px;
+    }
+    .footer-terms-condition{
+        margin-right: 30px;
+    }
+    .footer-privacy-policy{
+        margin-right: 90px;
+    }
+    .footer-logos{
+        margin-right: 90px;
+    }
+    .footer-contactus{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 950px) {
+    .footer-container{
+        /* display: block; */
+    }
+    .footer-brandname{
+        display: block;
+        font-size: 25px;
+        margin-right: 100px;  
+        margin-left: 50px;      
+    }
+    .footer-terms-condition{
+        display: block;
+        font-size: 12px;
+        margin-left: 50px;  
+    }
+    .footer-privacy-policy{
+        display: block;
+        font-size: 12px;
+        margin-left: 50px;  
+    }
+    .footer-logos{
+        display: block;
+        font-size: 12px;
+        margin-left: 50px;  
+    }
+    .footer-contactus{
+        display: block;
+        font-size: 12px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 620px) {
+    .footer-container{
+        display: block;
+        text-align: justify;
+
+    }
+    .footer-brandname{
+        display: block;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-right: 100px;  
+        margin-left: 40%;   
+        /* text-align: justify; */
+ 
+    }
+    .footer-terms-condition{
+        display: block;
+        font-size: 12px;
+        margin-left: 40%; 
+
+    }
+    .footer-privacy-policy{
+        display: block;
+        font-size: 12px;
+        margin-left: 40%;  
+    }
+    .footer-logos{
+        display: block;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 40%;  
+    }
+    .footer-contactus{
+        display: block;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 40%;
+    }
+    .logo-facebook{
+        width: 20px;
+        height: 20px;
+    }
+    .logo-instagram{
+        width: 20px;
+        height: 20px;
+    }
+}

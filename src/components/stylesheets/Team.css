@@ -1,0 +1,106 @@
+/* .team-container{
+    user-select: none;
+    height: 500px;
+    line-height: 500px;
+    z-index: 1;
+    width: 100%;
+    background-color: #e9e4e4;
+    text-align: center;
+    font-size: 380px;
+    font-weight: bold;
+    opacity: 0.3;
+    filter:blur(5px);
+    
+} */
+
+.upper-box-container{
+    background-image: url('../Images/team.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    /* filter: blur(5px); */
+}
+
+.box-container{
+    line-height: 160px;
+    font-size: 25px;
+    color: white;
+    width: 250px;
+    height: 160px;
+    border-radius: 20px;
+    opacity: 1;
+
+    margin: 20px 100px;
+}
+.blue{
+    background-color: rgb(43, 43, 167);
+    border: 4px solid rgb(32, 32, 145);
+}
+.aqua{
+    background-color: aqua;
+    border: 4px solid rgb(53, 221, 221);
+}
+.green{
+    background-color: rgb(107, 207, 107);
+    border: 4px solid rgb(105, 228, 105);
+}
+.dark-blue{
+    background-color: rgb(18, 18, 90);
+    border: 4px solid rgb(14, 14, 70);
+}
+
+@media screen and (max-width: 1200px) {
+    .team-container{
+        font-size: 280px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .team-container{
+        font-size: 180px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .box-container{
+        font-size: 18px;
+        height: 130px;
+        line-height: 130px;
+        width: 210px;
+        margin: 14px 80px
+    }
+}
+@media screen and (max-width: 1050px) {
+    .box-container{
+        font-size: 16px;
+        height: 120px;
+        line-height: 120px;
+        width: 200px;
+        margin: 14px 70px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .box-container{
+        font-size: 16px;
+        height: 100px;
+        line-height: 100px;
+        width: 160px;
+        margin: 12px 60px
+    }
+}
+@media screen and (max-width: 770px) {
+    .box-container{
+        font-size: 14px;
+        height: 70px;
+        line-height: 70px;
+        width: 120px;
+        margin: 10px 40px
+    }
+}
+@media screen and (max-width: 751px) {
+    .box-container{
+        font-size: 14px;
+        height: 50px;
+        line-height: 50px;
+        width: 80px;
+        margin: 8px 30px
+    }
+}

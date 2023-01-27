@@ -1,0 +1,7 @@
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    max-height: 150px;
+    text-align: center;
+    font-size: 18px;
+}
